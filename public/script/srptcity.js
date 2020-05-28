@@ -100,7 +100,7 @@ function makeTableHTML(myArray) {
           result += "<tr id='trow' class='clickable-row' data-href='#'>";
           for(var j=0; j<myArray[i].length; j++){
   					  if(i===0){
-  							result += "<th>"+myArray[i][j]+"</th>";
+  							result += "<th id='tbd'>"+myArray[i][j]+"</th>";
   						}else{
   							result += "<td id='tbd'>"+myArray[i][j]+"</td>";
   						}

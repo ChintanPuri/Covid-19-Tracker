@@ -92,6 +92,8 @@ body{
 }
 #tbd{
     cursor: pointer;
+    border: 3px solid white;
+    border-radius: 15px;
     padding: 10px;
 }
 #trow:hover{
@@ -114,7 +116,7 @@ a{
     font-size: 25px;
   }
   #bye{
-    width: 95%;
+    width: 80%;
     margin: auto;
     margin-bottom: 50px;
   }

@@ -89,6 +89,10 @@ body{
 
 #tbd{
   cursor: pointer;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 10px;
+
 }
 #trow:hover{
   background-color: #e8e8e8;
@@ -97,14 +101,12 @@ table{
   border: 0px;
 }
 
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   #body{
-    font-size: 20px;
+    font-size: 25px;
   }
   #bye{
-    width: 95%;
+    width: 80%;
     margin: auto;
     margin-bottom: 50px;
   }
@@ -114,9 +116,14 @@ table{
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   #body{
-    font-size: 22px;
+    font-size: 20px;
+  }
+  #bye{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
   }
   #smallc,#smallt{
     width: 100%;
