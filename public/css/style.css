@@ -100,12 +100,19 @@ table{
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   #bye{
     width: 95%;
     margin: auto;
     margin-bottom: 50px;
   }
+  #smallc,#smallt{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
   #smallc,#smallt{
     width: 100%;
     padding-bottom: 20px;
