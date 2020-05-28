@@ -2,26 +2,36 @@ body{
   font-family: 'Baloo Chettan 2', sans-serif;
   font-size: 18px;
 }
-
+#firstAni{
+  opacity: 0%;
+  margin-top: 20px;
+}
 #countryData{
   width: 45%;
   text-align: center;
   vertical-align: middle;
 }
 #heading{
+
   width: 60%;
-  margin: 0px auto;
+  margin: auto;
   text-align: center;
   padding: 0px;
   font-family: 'Patua One', cursive;
+}
+#heading h1{
+  opacity: 0%;
+  margin-top: 30px;
 }
 
 #countryName{
   font-size: 50px;
 }
 #country{
+  opacity: 0%;
   width: 90%;
-  margin: 0px auto;
+  margin: auto;
+  margin-top: 30px;
 }
 #smallc{
   width: 50%;
@@ -77,19 +87,7 @@ body{
    margin-bottom: 50px;
 }
 
-.headr div{
-  text-align: center;
-}
 
-.hello{
-  width: 100%;
-}
-#totalConf{
-  text-align: center;
-}
-.custom-switch{
-    text-align: right;
-}
 #tbd{
     cursor: pointer;
     border: 3px solid white;
@@ -97,19 +95,18 @@ body{
     padding: 10px;
 }
 #trow:hover{
-
   background-color: #e8e8e8;
 }
 table{
+  opacity: 0%;
   border: 0px;
+  margin-top: 30px;
 }
 
 a{
   display: block;
   /* border: 1px solid black; */
 }
-
-
 
 @media only screen and (max-width: 992px) {
   #body{

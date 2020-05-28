@@ -1,0 +1,19 @@
+#firstAni{
+  animation : move 1s ease-in-out forwards;
+}
+#heading h1{
+   animation : move 1s 0.7s ease-in-out forwards;
+}
+#country{
+  animation : move 1s 1s ease-in-out forwards;
+
+}
+table{
+  animation : move 1s 1.5s ease-in-out forwards;
+}
+@keyframes move{
+    100%{
+        opacity: 100%;
+        margin-top: 0px;
+    }
+}

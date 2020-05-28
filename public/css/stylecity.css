@@ -2,6 +2,10 @@ body{
   font-family: 'Baloo Chettan 2', sans-serif;
   font-size: 18px;
 }
+#firstAni{
+  opacity: 0%;
+  margin-top: 20px;
+}
 #countryData{
   width: 45%;
   text-align: center;
@@ -14,12 +18,19 @@ body{
   padding: 0px;
   font-family: 'Patua One', cursive;
 }
+#heading h1{
+  opacity: 0%;
+  margin-top: 30px;
+}
+
 #countryName{
   font-size: 50px;
 }
 #country{
+  opacity: 0%;
   width: 90%;
   margin: 0px auto;
+  margin-top: 30px;
 }
 #smallc{
   width: 50%;
@@ -98,7 +109,9 @@ body{
   background-color: #e8e8e8;
 }
 table{
+  opacity: 0%;
   border: 0px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 992px) {
