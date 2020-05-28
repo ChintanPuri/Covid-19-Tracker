@@ -44,14 +44,14 @@ var myChart = new Chart(ctx, {
         datasets: [{
             data: [total_active, total_rcd,total_deaths],
             backgroundColor: [
-                'rgba(0, 255, 255, 0.6)',
-                'rgba(0, 255, 0, 0.6)',
-                'rgba(255, 0, 0, 0.6)',
+                'rgba(0, 255, 255, 0.3)',
+                'rgba(0, 255, 0, 0.3)',
+                'rgba(255, 0, 0, 0.3)',
             ],
             hoverBackgroundColor: [
-              'rgba(0, 255, 255, 0.2)',
-              'rgba(0, 255, 0, 0.2)',
-              'rgba(255, 0, 0, 0.2)',
+              'rgba(0, 255, 255, 0.1)',
+              'rgba(0, 255, 0, 0.1)',
+              'rgba(255, 0, 0, 0.1)',
             ],
             borderColor: [
               'rgba(0, 255, 255, 1)',
