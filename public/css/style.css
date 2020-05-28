@@ -72,7 +72,7 @@ body{
 
 
 #bye{
-   max-width: 600px;
+   width: 600px;
    margin: auto;
    margin-bottom: 50px;
 }
@@ -111,9 +111,13 @@ a{
 
 @media only screen and (max-width: 992px) {
   #body{
-    font-size: 22px;
+    font-size: 25px;
   }
-
+  #bye{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
   #smallc,#smallt{
     width: 100%;
     padding-bottom: 20px;
@@ -123,11 +127,6 @@ a{
 @media only screen and (max-width: 600px) {
   #body{
     font-size: 20px;
-  }
-  #bye{
-    width: 95%;
-    margin: auto;
-    margin-bottom: 50px;
   }
   #smallc,#smallt{
     width: 100%;
