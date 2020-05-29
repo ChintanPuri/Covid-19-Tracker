@@ -1,16 +1,20 @@
 #firstAni{
-  animation : move 1s 2s ease-in-out forwards;
+  animation : move 1s 0.5s ease-in-out forwards;
 }
 #heading h1{
-   animation : move 1s 2.7s ease-in-out forwards;
+   animation : move 1s 1.2s ease-in-out forwards;
 }
 #country{
-  animation : move 1s 3s ease-in-out forwards;
+  animation : move 1s 1.6s ease-in-out forwards;
 
 }
 table{
-  animation : move 1s 3.5s ease-in-out forwards;
+  animation : move 1s 2s ease-in-out forwards;
 }
+#end{
+  animation : move 1s 2s ease-in-out forwards;
+}
+
 @keyframes move{
     100%{
         opacity: 100%;
