@@ -78,24 +78,9 @@ body{
   background-color: rgba(255, 0, 0, 0.2);
 }
 
-
 #bye{
   width: 600px;
    margin: auto;
-}
-
-.headr div{
-  text-align: center;
-}
-
-.hello{
-  width: 100%;
-}
-#totalConf{
-  text-align: center;
-}
-.custom-switch{
-    text-align: right;
 }
 
 #tbd{
@@ -123,6 +108,27 @@ table{
     margin: auto;
     margin-bottom: 50px;
   }
+  #firstAni{
+    opacity: 0%;
+    margin-top: 20px;
+  }
+  #heading h1{
+    opacity: 0%;
+    margin-top: 30px;
+  }
+
+  #country{
+    opacity: 0%;
+    margin-top: 30px;
+  }
+table{
+    opacity: 0%;
+    border: 0px;
+    margin-top: 30px;
+  }
+  #end{
+    opacity: 0%;
+  }
   #smallc,#smallt{
     width: 100%;
     padding-bottom: 20px;
@@ -137,6 +143,27 @@ table{
     width: 95%;
     margin: auto;
     margin-bottom: 50px;
+  }
+  #firstAni{
+    opacity: 0%;
+    margin-top: 20px;
+  }
+  #heading h1{
+    opacity: 0%;
+    margin-top: 30px;
+  }
+
+  #country{
+    opacity: 0%;
+    margin-top: 30px;
+  }
+table{
+    opacity: 0%;
+    border: 0px;
+    margin-top: 30px;
+  }
+  #end{
+    opacity: 0%;
   }
   #smallc,#smallt{
     width: 100%;
