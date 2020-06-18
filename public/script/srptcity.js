@@ -100,9 +100,19 @@ function makeTableHTML(myArray) {
           result += "<tr id='trow' class='clickable-row' data-href='#'>";
           for(var j=0; j<myArray[i].length; j++){
   					  if(i===0){
-  							result += "<th id='tbd'>"+myArray[i][j]+"</th>";
+                if(j===0){
+                result += '<th id="tbds">'+myArray[i][j]+"</th>";
+              }else{
+                result += '<th id="tbdd">'+myArray[i][j]+"</th>";
+
+              }
   						}else{
-  							result += "<td id='tbd'>"+myArray[i][j]+"</td>";
+                if(j===0){
+                result += '<td id="tbds">'+myArray[i][j]+"</td>";
+              }else{
+                result += '<td id="tbdd">'+myArray[i][j]+"</td>";
+
+              }
   						}
           }
           result += "</tr>";

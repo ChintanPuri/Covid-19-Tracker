@@ -69,16 +69,21 @@ function makeTableHTML(myArray) {
         result += "<tr id='trow'>";
         for(var j=0; j<myArray[i].length; j++){
 					  if(i===0){
-							result += '<th id="tbd">'+myArray[i][j]+"</th>";
+              if(j===0){
+							result += '<th id="tbds">'+myArray[i][j]+"</th>";
+            }else{
+              result += '<th id="tbdd">'+myArray[i][j]+"</th>";
+
+            }
 						}else{
               if(j===0){
                 var newState=myArray[i][0].split(" ").join("");
                 var link="/"+newState;
                 var newl="<a href="+link+">";
                 console.log(newl);
-							result += '<td id="tbd">'+ newl +myArray[i][j]+"</a></td>";
+							result += '<td id="tbds">'+ newl +myArray[i][j]+"</a></td>";
             }else{
-              result += "<td id='tbd'>"+myArray[i][j]+"</td>";
+              result += "<td id='tbdd'>"+myArray[i][j]+"</td>";
 
             }
 						}

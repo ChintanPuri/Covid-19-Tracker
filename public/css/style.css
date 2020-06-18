@@ -6,15 +6,15 @@ body{
   opacity: 0%;
   margin-top: 20px;
 }
-#countryData{
+#countryrow{
+  vertical-align: middle;
+}
+/* #countryData{
   width: 45%;
   text-align: center;
   vertical-align: middle;
-}
+} */
 #heading{
-
-  width: 60%;
-  margin: auto;
   text-align: center;
   padding: 0px;
   font-family: 'Patua One', cursive;
@@ -29,27 +29,45 @@ body{
 }
 #country{
   opacity: 0%;
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 30px;
 }
-#smallc{
-  width: 50%;
+#smallt,#smallc{
+  padding: 20px 20px;
 }
-#smallt{
+/* #smallt{
   width: 40%;
   margin: 10px 40px;
-}
-#cases{
+} */
+/* #cases{
   width: 75%;
   margin: auto;
+} */
+#casehead{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-weight: 600;
 }
-
+#active,#confirmed,#recovered,#deaths{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    font-weight: 600;
+}
+.colon{
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  font-weight: 600;
+}
 #ppc{
-  padding: 4px 0px;
   background-color: rgba(255, 255, 0, 0.2);
   border-radius: 6px;
   margin-bottom: 10px;
+  height: 80px;
+
 }
 
 #cnfrow{
@@ -63,21 +81,18 @@ body{
 #ppa{
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  padding: 4px 0px;
-  /* margin-right: 4px; */
   background-color: rgba(0, 255, 255, 0.2);
+  height: 80px;
 }
 #ppr{
-  /* border-radius: 6px; */
-  /* margin-right: 4px; */
-  padding: 4px 0px;
   background-color: rgba(0, 255, 0, 0.2);
+  height: 80px;
 }
 #ppd{
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  padding: 4px 0px;
   background-color: rgba(255, 0, 0, 0.2);
+  height: 80px;
 }
 
 
@@ -88,11 +103,17 @@ body{
 }
 
 
-#tbd{
+#tbds{
     cursor: pointer;
-    border: 3px solid white;
-    border-radius: 15px;
     padding: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+#tbdd{
+    cursor: pointer;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
 }
 #trow:hover{
   background-color: #e8e8e8;
@@ -113,7 +134,7 @@ a{
 
 @media only screen and (max-width: 992px) {
   #body{
-    font-size: 25px;
+    font-size: 40px;
   }
   #firstAni{
     opacity: 0%;
@@ -122,59 +143,73 @@ a{
   #heading h1{
     opacity: 0%;
     margin-top: 30px;
+    font-size: 60px;
   }
 
   #country{
     opacity: 0%;
     margin-top: 30px;
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  #ppa,#ppc,#ppr,#ppd{
+    height: 150px;
+  }
+  #casehead{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  #active,#confirmed,#recovered,#deaths{
+      position: absolute;
+      top: 30%;
+      left: 70%;
+      font-size: 50px;
+      font-weight: 600;
+  }
+  .colon{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-size: 50px;
+    font-weight: 600;
   }
   #bye{
-    width: 80%;
+    width: 90%;
     margin: auto;
+    max-width: 990px;
+    overflow-x: scroll;
     margin-bottom: 50px;
   }
   table{
     opacity: 0%;
     border: 0px;
     margin-top: 30px;
+    text-align: center;
+  }
+  #tbds{
+    height: 120px;
+    min-width: 420px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  #tbdd{
+    height: 120px;
+    min-width: 350px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 20px;
   }
   #end{
     opacity: 0%;
   }
 
   #smallc,#smallt{
-    width: 100%;
+    width: 80%;
     padding-bottom: 20px;
   }
-}
 
-@media only screen and (max-width: 600px) {
-  #body{
-    font-size: 20px;
-  }
-  #firstAni{
-    opacity: 0%;
-    margin-top: 20px;
-  }
-  #heading h1{
-    opacity: 0%;
-    margin-top: 30px;
-  }
-
-  #country{
-    opacity: 0%;
-    margin-top: 30px;
-  }
-table{
-    opacity: 0%;
-    border: 0px;
-    margin-top: 30px;
-  }
-  #end{
-    opacity: 0%;
-  }
-  #smallc,#smallt{
-    width: 100%;
-    padding-bottom: 20px;
-  }
 }
