@@ -19,7 +19,6 @@ const total_deaths= numberWithCommas(TotalCases.deaths);
 
 $("#totalConf").append("Total Confirmed :" + total_confirmed);
 
-
 $("#confirmed").append(total_confirmed);
 $("#active").append(total_active);
 $("#recovered").append(total_rcd);
@@ -80,7 +79,6 @@ function makeTableHTML(myArray) {
                 var newState=myArray[i][0].split(" ").join("");
                 var link="/"+newState;
                 var newl="<a href="+link+">";
-                console.log(newl);
 							result += '<td id="tbds">'+ newl +myArray[i][j]+"</a></td>";
             }else{
               result += "<td id='tbdd'>"+myArray[i][j]+"</td>";
@@ -96,11 +94,9 @@ function makeTableHTML(myArray) {
 }
 
 var myArray = [["State/UT","Confirmed","Active","Recoverd","Deaths"]];
-var n=0;
+
 $.each(data.statewise,function(id,obj){
-  if(n===0){
-		n=1;
-	}else{
+  if(id!==0){
 	var each_state=[];
     each_state.push(obj.state);
 		each_state.push(numberWithCommas(obj.confirmed));
@@ -111,7 +107,7 @@ $.each(data.statewise,function(id,obj){
   }
 
 })
-// console.log(myArray);
+
 $("#bye").append(makeTableHTML(myArray));
 
 
