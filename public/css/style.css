@@ -96,7 +96,7 @@ body{
 }
 
 
-#bye{
+#cases-table{
   width: 700px;
    margin: auto;
    margin-bottom: 50px;
@@ -180,7 +180,7 @@ a{
     font-size: 50px;
     font-weight: 600;
   }
-  #bye{
+  #cases-table{
     width: 90%;
     margin: auto;
     max-width: 990px;

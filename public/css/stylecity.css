@@ -80,7 +80,7 @@ body{
   background-color: rgba(255, 0, 0, 0.2);
 }
 
-#bye{
+#cases-table{
   width: 600px;
    margin: auto;
 }
@@ -110,7 +110,7 @@ table{
   #body{
     font-size: 40px;
   }
-  #bye{
+  #cases-table{
     width: 90%;
     margin: auto;
     max-width: 990px;

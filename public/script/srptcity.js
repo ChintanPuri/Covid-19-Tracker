@@ -133,7 +133,7 @@ function compareSecondColumn(a,b) {
     }
 }
 
-$("#bye").append(makeTableHTML(myArray));
+$("#cases-table").append(makeTableHTML(myArray));
 
 });
 

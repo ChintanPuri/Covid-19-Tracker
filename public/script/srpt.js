@@ -108,7 +108,7 @@ $.each(data.statewise,function(id,obj){
 
 })
 
-$("#bye").append(makeTableHTML(myArray));
+$("#cases-table").append(makeTableHTML(myArray));
 
 
 })
